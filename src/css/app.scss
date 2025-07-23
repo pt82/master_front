@@ -1,0 +1,29 @@
+// app global css in SCSS form
+
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.q-tabs__content {
+  justify-content: center !important;
+}
+
+.small-screen-only {
+  @media (max-width: $breakpoint-xs-max) {
+    display: block;
+  }
+  @media (max-width: $breakpoint-xs-min) {
+    display: none;
+  }
+}
+
+.q-banner {
+  z-index: 999999;
+}
+
+
+.content {
+  align-self: center !important;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "strizhevski_mobile_app_quasar",
+  "version": "0.0.1",
+  "description": "Hairdresser app",
+  "author": "majes <liones2014@mail.ru>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "2.5.0",
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0"
+  }
+}

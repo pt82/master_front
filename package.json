@@ -1,0 +1,57 @@
+{
+  "name": "strizhevski_mobile_app_quasar",
+  "version": "0.0.1",
+  "description": "Hairdresser app",
+  "productName": "Strizhevski-Master",
+  "author": "majes <liones2014@mail.ru>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev:android": "quasar dev -m capacitor -T android --ide",
+    "icons": "icongenie generate -i app-icon.png --skip-trim --theme-color 212121",
+    "generate:icons": "icongenie g -p ./icongenie-prod.json",
+    "deploy": "quasar build -m pwa"
+  },
+  "dependencies": {
+    "@capacitor/camera": "^1.1.0",
+    "@capacitor/core": "^3.2.4",
+    "@capacitor/device": "^1.0.3",
+    "@ionic/pwa-elements": "^3.0.2",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "browser-image-compression": "^1.0.17",
+    "core-js": "^3.6.5",
+    "quasar": "^1.0.0",
+    "vue2-ios-pwa-prompt": "^1.0.0§",
+    "workbox-window": "^6.1.5"
+  },
+  "devDependencies": {
+    "@capacitor/app": "^1.0.3",
+    "@quasar/app": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "laravel-echo": "^1.10.0",
+    "pusher-js": "^7.0.3",
+    "workbox-webpack-plugin": "^5.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
